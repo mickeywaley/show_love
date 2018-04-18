@@ -204,7 +204,7 @@ window.onload = tick;
  <script type="text/javascript">
 
     function sendMsg(){
-Bmob.initialize("33b792eb30793d8d45922f7000556ff6", "24714b5dd9b644e81ba739b47e8b0437");  
+Bmob.initialize("", "");  
     
         var name= $("#name").val();
         var content = $("#content").val();
@@ -240,7 +240,7 @@ Bmob.initialize("33b792eb30793d8d45922f7000556ff6", "24714b5dd9b644e81ba739b47e8
         
     });
 
-  Bmob.initialize("33b792eb30793d8d45922f7000556ff6", "24714b5dd9b644e81ba739b47e8b0437"); 
+  Bmob.initialize("", ""); 
 var Chat = Bmob.Object.extend("Chat");
 var query = new Bmob.Query(Chat);
 // 查询所有数据
@@ -280,7 +280,7 @@ test.find({
 
 });     
 function like(){
-Bmob.initialize("33b792eb30793d8d45922f7000556ff6", "24714b5dd9b644e81ba739b47e8b0437"); 
+Bmob.initialize("", ""); 
 var Aee = Bmob.Object.extend("TestObject");
 var tes= new Bmob.Query(Aee);
 var num;
