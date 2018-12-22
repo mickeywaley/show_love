@@ -1,3 +1,7 @@
+## 相册搬到了自己的hexo博客
+
+上面的那些页面代码没在用了，使用这个md文件的教程就可以了
+
 <a target="_blank" href="https://me.idealli.com/photos/" class="LinkCard">
 兰州小红鸡的博客相册
 </a>
@@ -18,13 +22,13 @@
 
 这个比较简单，搜索腾讯云，注册账号登陆，在云产品中选择对象存储，新建一个存储桶。就OK了。
 
-![兰州小红鸡](https://image.idealli.com/blog/18122201.jpg)
+![兰州小红鸡](https://image.idealli.com/blog/18122202.jpg)
 
 ### 跨域访问cors设置
 
 在基础配置中找到cors设置
 
-![兰州小红鸡](https://image.idealli.com/blog/18122202.jpg)
+![兰州小红鸡](https://image.idealli.com/blog/18122201.jpg)
 
 操作选择GET，来源Origin填写你的域名，带http或者https，其他默认不要填，如下图
 
